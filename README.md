@@ -1,6 +1,9 @@
 # 02-Responsive-Portfolio
 Homework week02 : Bootstrap Responsive-Portfolio.
 
+## Link :
+- https://mnm1506.github.io/Updated-Portfolio/
+
 ## Directions
 - Use the Bootstrap CSS Framework to create a mobile responsive portfolio.
 
