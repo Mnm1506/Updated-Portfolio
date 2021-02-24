@@ -2,9 +2,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-}
-
-body * {
   transition: 0.3s;
 }
 
@@ -19,7 +16,6 @@ body * {
   text-align: center;
   text-decoration: none;
   margin-top: -1px;
-  
 }
 
 h1,
@@ -45,10 +41,6 @@ h3,
     color: rgb(255, 230, 4);
     float: right;
     padding-top: 25px;
-  }
-  
-  ul {
-    list-style-type: none;
   }
   
   h1 {
@@ -154,13 +146,7 @@ h3,
   #purple-mode {
     background-color: #7e4c74;
   }
-  
-  #note {
-    font-size: 12px;
-    font-style: italic;
-    text-align: center;
-  }
-  
+
   .theme-dot:hover {
     border-width: 5px;
   }
@@ -226,7 +212,6 @@ h3,
   .about-me {
     padding: 2%;
     width: 100%;
-    /* border-right: 1px solid var(--borderColor); */
   }
   
   .skills {
@@ -276,13 +261,8 @@ h3,
   }
   
   .post-title {
-    color: rgb(206, 177, 177);
+    color: #fff;
     margin: 0;
-  }
-  
-  .post-intro {
-    color: #4b5156;
-    font-size: 14px;
   }
   
   .project-links {
@@ -368,8 +348,7 @@ h3,
     border-radius: 100%;
   }
 
-    /* footer section */
-  
+ /* footer section */
 .footer-section {
   position: relative;
   padding-top: 20px;
@@ -387,7 +366,6 @@ h3,
   }
   @media screen and (max-width: 800px) {
     .intro-wrapper {
-      grid-template-columns: 1fr;
       grid-template-areas: "nav-wrapper" "left-column" "right-column";
     }
     .right-column {
